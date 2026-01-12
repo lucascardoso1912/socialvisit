@@ -90,15 +90,15 @@ socialvisit/
 - Arquitetura preparada para integração segura com IA
 - Histórico com timestamp para auditoria
 
-## Como Executar o Projeto
-1 Instalar dependências
-pip install -r requirements.txt
+## Como Executar o Projeto    
+1- Instalar dependências   
+```pip install -r requirements.txt```
 
-2️ Gerar relatórios diários
-python src/main.py
+2️- Gerar relatórios diários    
+```python src/main.py```
 
-3️ Gerar relatório histórico por entidade
-python src/historico_familia.py
+3️- Gerar relatório histórico por entidade       
+```python src/historico_familia.py```
 
 ## Aplicação em TPCRM e GRC
 
