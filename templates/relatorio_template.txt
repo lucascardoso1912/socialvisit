@@ -1,0 +1,30 @@
+RELATÓRIO TÉCNICO DE VISITA DOMICILIAR
+
+IDENTIFICAÇÃO
+
+Família atendida: {familia}
+Data da visita: {data_visita}
+Técnico responsável: {tecnico}
+
+VISITA
+
+A visita domiciliar foi realizada com o objetivo de acompanhamento técnico da família, conforme previsto nas atribuições do serviço socioassistencial.
+
+DESCRIÇÃO TÉCNICA
+
+{observacao}
+
+AVALIAÇÃO DE RISCO
+
+Com base nas observações realizadas durante a visita, a família foi classificada com risco social de nível: {risco}.
+
+ENCAMINHAMENTOS REALIZADOS
+
+{encaminhamento}
+
+
+
+
+
+
+
