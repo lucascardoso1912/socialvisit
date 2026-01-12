@@ -113,7 +113,8 @@ A adaptação para TPCRM exige apenas mudança de contexto de domínio, mantendo
 - Dashboards de risco
 
 👤 Autor
-**Lucas Cardoso Rocha**
+
+**Lucas Cardoso Rocha**            
 Estudante de Segurança Cibernética
 
 Este projeto foi desenvolvido para **automatizar uma operação real**, visando reduzir tempo operacional, melhorar a organização das informações e facilitar a consulta histórica e a tomada de decisão.
