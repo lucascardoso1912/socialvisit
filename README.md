@@ -52,7 +52,7 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - Evolução do risco
 - Descrições técnicas e encaminhamentos
 
-'''Arquitetura do Projeto
+```Arquitetura do Projeto
 socialvisit/
 ├─ src/
 │  ├─ main.py                # Geração de relatórios diários
@@ -73,9 +73,9 @@ socialvisit/
 ├─ .gitignore
 ├─ requirements.txt
 └─ README.md
-'''
+```
 
-Segurança e Boas Práticas
+ Segurança e Boas Práticas
 
 - Dados sensíveis (CSV, banco SQLite e relatórios) não são versionados
 - Uso de queries parametrizadas para evitar SQL Injection
@@ -84,7 +84,7 @@ Segurança e Boas Práticas
 - Histórico com timestamp para auditoria
 
 Como Executar o Projeto
-1️ Instalar dependências
+1 Instalar dependências
 pip install -r requirements.txt
 
 2️ Gerar relatórios diários
@@ -93,7 +93,7 @@ python src/main.py
 3️ Gerar relatório histórico por entidade
 python src/historico_familia.py
 
-🔎 Aplicação em TPCRM e GRC
+ Aplicação em TPCRM e GRC
 
 O modelo deste sistema é diretamente aplicável a processos de Third-Party Cyber Risk Management, pois trabalha com:
 
