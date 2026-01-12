@@ -52,7 +52,7 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - Evolução do risco
 - Descrições técnicas e encaminhamentos
 
-Arquitetura do Projeto
+'''Arquitetura do Projeto
 socialvisit/
 ├─ src/
 │  ├─ main.py                # Geração de relatórios diários
@@ -73,6 +73,7 @@ socialvisit/
 ├─ .gitignore
 ├─ requirements.txt
 └─ README.md
+'''
 
 Segurança e Boas Práticas
 
