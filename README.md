@@ -119,3 +119,6 @@ Estudante de Segurança Cibernética
 
 Este projeto foi desenvolvido para **automatizar uma operação real**, visando reduzir tempo operacional, melhorar a organização das informações e facilitar a consulta histórica e a tomada de decisão.
 Posteriormente, o sistema foi **estruturado, documentado e adaptado para fins de portfólio**, preservando a lógica e os desafios reais do problema original, sem expor dados sensíveis ou informações institucionais.
+
+## Licença
+Este projeto está licenciado sob a [MIT License](LICENSE).
