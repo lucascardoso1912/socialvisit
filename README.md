@@ -1,4 +1,4 @@
-📌 SocialVisit – Sistema de Avaliação, Registro e Histórico de Risco
+SocialVisit – Sistema de Avaliação, Registro e Histórico de Risco
 📖 Visão Geral
 
 Este projeto é um sistema em **Python** desenvolvido para automatizar a elaboração de relatórios técnicos, organizar registros de avaliações periódicas, classificar níveis de risco e manter histórico estruturado para auditoria e tomada de decisão.
@@ -13,7 +13,7 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - acompanhamento de pendências
 - geração de relatórios técnicos e históricos
 
-🎯 Objetivos do Projeto
+ Objetivos do Projeto
 
 - Automatizar a geração de relatórios técnicos diários
 - Estruturar dados de avaliações em banco de dados
@@ -21,7 +21,7 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - Facilitar respostas rápidas em situações imprevistas
 - Apoiar processos de análise de risco e auditoria
 
-🧠 Funcionalidades Principais
+ Funcionalidades Principais
 ✔️ Geração de Relatórios Técnicos
 
 - Entrada de anotações brutas (texto informal ou palavras-chave)
@@ -50,7 +50,7 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - Evolução do risco
 - Descrições técnicas e encaminhamentos
 
-🧩 Arquitetura do Projeto
+Arquitetura do Projeto
 socialvisit/
 ├─ src/
 │  ├─ main.py                # Geração de relatórios diários
@@ -72,7 +72,7 @@ socialvisit/
 ├─ requirements.txt
 └─ README.md
 
-🔐 Segurança e Boas Práticas
+Segurança e Boas Práticas
 
 - Dados sensíveis (CSV, banco SQLite e relatórios) não são versionados
 - Uso de queries parametrizadas para evitar SQL Injection
@@ -80,14 +80,14 @@ socialvisit/
 - Arquitetura preparada para integração segura com IA
 - Histórico com timestamp para auditoria
 
-🚀 Como Executar o Projeto
-1️⃣ Instalar dependências
+Como Executar o Projeto
+1️ Instalar dependências
 pip install -r requirements.txt
 
-2️⃣ Gerar relatórios diários
+2️ Gerar relatórios diários
 python src/main.py
 
-3️⃣ Gerar relatório histórico por entidade
+3️ Gerar relatório histórico por entidade
 python src/historico_familia.py
 
 🔎 Aplicação em TPCRM e GRC
@@ -102,7 +102,7 @@ O modelo deste sistema é diretamente aplicável a processos de Third-Party Cybe
 
 A adaptação para TPCRM exige apenas mudança de contexto de domínio, mantendo a mesma arquitetura e lógica.
 
-📌 Próximos Passos (Evolução)
+ Próximos Passos (Evolução)
 
 - Integração com IA via API para redação técnica avançada
 - Resumo técnico automático de 1 página
