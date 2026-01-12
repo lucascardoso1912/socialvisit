@@ -1,6 +1,6 @@
 SocialVisit – Sistema de Avaliação, Registro e Histórico de Risco
 
-📖 Visão Geral
+##📖 Visão Geral
 
 Este projeto é um sistema em **Python** desenvolvido para automatizar a elaboração de relatórios técnicos, organizar registros de avaliações periódicas, classificar níveis de risco e manter histórico estruturado para auditoria e tomada de decisão.
 
@@ -14,7 +14,9 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - acompanhamento de pendências
 - geração de relatórios técnicos e históricos
 
- Objetivos do Projeto
+---
+
+## Objetivos do Projeto
 
 - Automatizar a geração de relatórios técnicos diários
 - Estruturar dados de avaliações em banco de dados
@@ -22,21 +24,21 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - Facilitar respostas rápidas em situações imprevistas
 - Apoiar processos de análise de risco e auditoria
 
- Funcionalidades Principais
+## Funcionalidades Principais
  
-✔️ Geração de Relatórios Técnicos
+###✔️ Geração de Relatórios Técnicos
 
 - Entrada de anotações brutas (texto informal ou palavras-chave)
 - Geração automática de relatórios técnico padronizado (DOCX)
 - Datas formatadas no padrão brasileiro
 
-✔️ Avaliação de Risco
+###✔️ Avaliação de Risco
 
 - Classificação manual de risco (Baixo, Médio, Alto)
 - Registro do risco por avaliação
 - Visualização da evolução de risco ao longo do tempo
 
-✔️ Banco de Dados Histórico
+###✔️ Banco de Dados Histórico
 
 - Armazenamento em SQLite
 - Processamento e transformação de dados estruturados utilizando **pandas**
@@ -45,14 +47,17 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - Rastreamento temporal (timestamp)
 
 
-✔️ Relatório Histórico por Entidade
+###✔️ Relatório Histórico por Entidade
 
 - Consolidação de todas as avaliações
 - Linha do tempo cronológica
 - Evolução do risco
 - Descrições técnicas e encaminhamentos
 
-```Arquitetura do Projeto
+---
+
+##Arquitetura do Projeto
+```
 socialvisit/
 ├─ src/
 │  ├─ main.py                # Geração de relatórios diários
@@ -75,7 +80,9 @@ socialvisit/
 └─ README.md
 ```
 
- Segurança e Boas Práticas
+---
+
+##Segurança e Boas Práticas
 
 - Dados sensíveis (CSV, banco SQLite e relatórios) não são versionados
 - Uso de queries parametrizadas para evitar SQL Injection
@@ -83,7 +90,7 @@ socialvisit/
 - Arquitetura preparada para integração segura com IA
 - Histórico com timestamp para auditoria
 
-Como Executar o Projeto
+##Como Executar o Projeto
 1 Instalar dependências
 pip install -r requirements.txt
 
@@ -93,7 +100,7 @@ python src/main.py
 3️ Gerar relatório histórico por entidade
 python src/historico_familia.py
 
- Aplicação em TPCRM e GRC
+##Aplicação em TPCRM e GRC
 
 O modelo deste sistema é diretamente aplicável a processos de Third-Party Cyber Risk Management, pois trabalha com:
 
@@ -105,20 +112,24 @@ O modelo deste sistema é diretamente aplicável a processos de Third-Party Cybe
 
 A adaptação para TPCRM exige apenas mudança de contexto de domínio, mantendo a mesma arquitetura e lógica.
 
- Próximos Passos (Updates)
+##Próximos Passos (Updates)
 
 - Integração com IA via API para redação técnica avançada
 - Resumo técnico automático de 1 página
 - Interface simplificada para uso operacional
 - Dashboards de risco
 
-👤 Autor
+---
+
+##👤 Autor
 
 **Lucas Cardoso Rocha**            
-Estudante de Segurança Cibernética
+**Estudante de Segurança Cibernética**
 
 Este projeto foi desenvolvido para **automatizar uma operação real**, visando reduzir tempo operacional, melhorar a organização das informações e facilitar a consulta histórica e a tomada de decisão.
 Posteriormente, o sistema foi **estruturado, documentado e adaptado para fins de portfólio**, preservando a lógica e os desafios reais do problema original, sem expor dados sensíveis ou informações institucionais.
+
+---
 
 ## Licença
 Este projeto está licenciado sob a [MIT License](LICENSE).
