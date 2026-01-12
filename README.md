@@ -105,7 +105,7 @@ O modelo deste sistema é diretamente aplicável a processos de Third-Party Cybe
 
 A adaptação para TPCRM exige apenas mudança de contexto de domínio, mantendo a mesma arquitetura e lógica.
 
- Próximos Passos (Evolução)
+ Próximos Passos (Updates)
 
 - Integração com IA via API para redação técnica avançada
 - Resumo técnico automático de 1 página
@@ -115,6 +115,7 @@ A adaptação para TPCRM exige apenas mudança de contexto de domínio, mantendo
 👤 Autor
 
 **Lucas Cardoso Rocha**
+
 Estudante de Segurança Cibernética
 
 Este projeto foi desenvolvido para **automatizar uma operação real**, visando reduzir tempo operacional, melhorar a organização das informações e facilitar a consulta histórica e a tomada de decisão.
