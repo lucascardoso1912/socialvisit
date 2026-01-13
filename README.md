@@ -57,27 +57,32 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 ---
 
 ## Arquitetura do Projeto
+
 ```
 socialvisit/
-├─ src/
-│  ├─ main.py                # Geração de relatórios diários
-│  ├─ database.py            # Banco de dados e consultas
-│  ├─ historico_familia.py   # Relatório histórico por entidade
-│  ├─ ia.py                  # Apoio à redação técnica
-│  └─ ia_prompt.py           # Regras e prompt da IA (desacoplado)
+├── src/
+│   ├── __init__.py              
+│   ├── main.py                  
+│   ├── database.py              
+│   ├── historico_familia.py     
+│   ├── ia.py                    # Apoio à redação técnica (estrutura preparada para IA)
+│   └── ia_prompt.py             # Regras e prompts desacoplados para geração de texto
 │
-├─ templates/
-│  └─ relatorio_template.txt
+├── templates/
+│   └── relatorio_template.txt   # Template base para os relatórios técnicos
 │
-├─ data/
-│  └─ README.md              # Dados reais não versionados
+├── data/
+│   ├── socialvisit.db           # Banco de dados SQLite (não versionado)
+│   ├── visitas.csv              # Fonte de dados de entrada (não versionado)
+│   └── README.md                # Documentação sobre dados locais e sensíveis
 │
-├─ reports/
-│  └─ README.md              # Relatórios gerados localmente
+├── reports/
+│   └── README.md                # Informações sobre os relatórios gerados
 │
-├─ .gitignore
-├─ requirements.txt
-└─ README.md
+├── .gitignore                   # Exclusão de dados sensíveis e artefatos locais
+├── LICENSE                      
+├── requirements.txt            
+└── README.md                    
 ```
 
 ---
