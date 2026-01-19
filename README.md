@@ -1,6 +1,6 @@
 SocialVisit – Sistema de Avaliação, Registro e Histórico de Risco
 
-## 📖 Visão Geral
+## Visão Geral
 
 Este projeto é um sistema em **Python** desenvolvido para automatizar a elaboração de relatórios técnicos, organizar registros de avaliações periódicas, classificar níveis de risco e manter histórico estruturado para auditoria e tomada de decisão.
 
