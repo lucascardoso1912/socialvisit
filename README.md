@@ -99,10 +99,10 @@ socialvisit/
 1- Instalar dependências   
 ```pip install -r requirements.txt```
 
-2️- Gerar relatórios diários    
+2- Gerar relatórios diários    
 ```python src/main.py```
 
-3️- Gerar relatório histórico por entidade       
+3- Gerar relatório histórico por entidade       
 ```python src/historico_familia.py```
 
 ## Aplicação em TPCRM e GRC
