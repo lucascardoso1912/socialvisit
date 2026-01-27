@@ -26,19 +26,19 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 
 ## Funcionalidades Principais
  
-### ✔️ Geração de Relatórios Técnicos
+### Geração de Relatórios Técnicos
 
 - Entrada de anotações brutas (texto informal ou palavras-chave)
 - Geração automática de relatórios técnico padronizado (DOCX)
 - Datas formatadas no padrão brasileiro
 
-### ✔️ Avaliação de Risco
+### Avaliação de Risco
 
 - Classificação manual de risco (Baixo, Médio, Alto)
 - Registro do risco por avaliação
 - Visualização da evolução de risco ao longo do tempo
 
-### ✔️ Banco de Dados Histórico
+### Banco de Dados Histórico
 
 - Armazenamento em SQLite
 - Processamento e transformação de dados estruturados utilizando **pandas**
@@ -47,7 +47,7 @@ Embora aplicado inicialmente a um contexto social, o modelo é genérico e aplic
 - Rastreamento temporal (timestamp)
 
 
-### ✔️ Relatório Histórico por Entidade
+### Relatório Histórico por Entidade
 
 - Consolidação de todas as avaliações
 - Linha do tempo cronológica
